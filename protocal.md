@@ -34,7 +34,7 @@ Class use this protocal:
 @end
 ```
 
-Check whether an object implements that method:
+## Check whether an object implements that method:
 
 ```objc
 if([miao respondsToSelector: @selector(yell:)]) {
@@ -48,6 +48,12 @@ or
 if([Miao instancesRespondToSelector: @selector(yell:)]) {
   // Yell twice!
 }
+```
+
+Ruby:
+
+```ruby
+a.respond_to?(:foo)
 ```
 
 ## Inherit
